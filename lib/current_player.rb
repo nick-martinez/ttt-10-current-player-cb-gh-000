@@ -2,7 +2,7 @@ def turn_count(board)
   counter = 0
   square = 0
 
-  while square < board.size
+  while (square < board.size)
     if (board[square] != " " && board[square] != "" && board[square] != nil)
       counter += 1
     end
