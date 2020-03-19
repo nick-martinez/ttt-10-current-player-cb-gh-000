@@ -1,5 +1,6 @@
+counter = 0
+
 def turn_count(board)
-  counter = 0
   square = 0
 
   while square < board.size
