@@ -1,9 +1,10 @@
 def turn_count(board)
   counter = 0
-  spots = board.size
 
-  while counter < spots
-    counter += 1
+  board.each do |sqaure|
+    if (board[square] != " " || board[square] != "" || board[square] != nil)
+      counter += 1
+    end
   end
 
   return counter
