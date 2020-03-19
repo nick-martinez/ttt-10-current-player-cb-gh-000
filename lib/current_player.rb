@@ -1,7 +1,8 @@
 def turn_count(board)
   counter = 0
+  spots = board.size
 
-  board.each do |sqaure|
+  while spots < 10
     counter += 1
   end
 
