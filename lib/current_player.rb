@@ -2,7 +2,7 @@ def turn_count(board)
   counter = 0
   spots = board.size
 
-  while spots < 10
+  while counter < spots
     counter += 1
   end
 
